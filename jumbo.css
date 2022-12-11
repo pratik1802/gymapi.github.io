@@ -1,0 +1,176 @@
+body{
+    background-color: #252525 !important;
+    font-family: sans-serif;
+    
+}
+
+.bg{
+    height: 80vh;
+    width: 100%;
+    background-color: cadetblue;
+    background-image: url(./images/pexels-anush-gorak-1229356.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 90% 150px;
+    filter: drop-shadow(4px 4px 12px #fff);
+    border-left: 15px solid rgb(81, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.bg h1{
+    font-size: 4rem;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    
+}
+
+#info{
+    width: 50%;
+    height: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    border-radius: 15px;
+    
+}
+#search{
+    height: 2.7rem;
+    width: 8rem;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(0, 247, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#search:active{
+    background-color: #00c3ff;
+}
+
+#search:visited{
+    background-color: #00c3ff;
+}
+
+#type:focus{
+    outline: 1px solid rgb(0, 255, 0);
+}
+
+#type{
+    width: 30rem !important;
+    height: 2.7rem !important;
+    border: none !important;
+    border-radius: 10px 0 0 10px;
+    padding: 0 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+
+.bg h1 img {
+    width: 100px;
+}
+
+.bg h1 span{
+    color: rgb(0, 247, 255);
+}
+
+.bg h2{
+    font-size: 2.5rem;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.bg h2 span {
+    color: rgb(255, 132, 152);
+}
+
+.all{
+    background-color: rgb(231, 255, 217);
+    /* background-image: linear-gradient(toright #8360c3, #2ebf91); */
+    /* background-image: linear-gradient( #8360c3, #2ebf91); */
+    background-image: linear-gradient(to right, #00ffe1, #ade747);
+    width: 40rem;
+    max-height:80rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    padding: 15px;
+    overflow-x: hidden;
+    
+}
+.all img{
+    width: 38rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.all h1{
+    color: blue;
+}
+
+
+#net{
+    height: 130vh;
+    /* border:1px solid red; */
+    box-shadow:  5px  5px 30px rgba(255, 255, 255, 0.74);
+    width: 100%;
+    margin: 5rem  0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    padding: 20px 0;
+    
+}
+
+.titel{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 4rem 0 2rem 0;
+}
+
+.titel h1{
+    color: #fff;
+    font-size: 4rem;
+    
+}
+
+.titel h1 span{
+    color: rgb(255, 132, 152);
+}
+
+.titel h1 img{
+    width: 100px;
+}
+
+header{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 4rem;
+}
+
+header h1 span{
+    font-family: sans-serif !important;
+    font-weight: 900;
+}
+
+header h1 img {
+    width: 90px;
+}
